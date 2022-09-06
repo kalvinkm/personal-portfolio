@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Landing Page Curriculum</title>
+</head>
+
+<body class="m-0">
+    <div class="container-fluid px-0">
+        <div class="row row-first me-0">
+            <header class="d-flex flex-row justify-content-around py-5">
+                <div class="image-div">
+                    <a href="/">
+                        <img src="assets/imgs/profle300.jpg" alt="picture-profile">
+                    </a>
+                </div>
+                <div class="title d-flex flex-column align-items-start justify-content-center py-5 px-2 ms-3">
+                    <h1 class="d-flex justify-content-start">Kalvin Melo</h1>
+                    <h5>Developer</h5>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://goo.gl/maps/Y1qMAtCJwzXMVcwFA" target="_blank" class="local">Cachoeirinha -
+                            RS</a>
+                    </p>
+                </div>
+            </header>
+        </div>
+        <div class="row row-nav w-100 m-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa-solid fa-bars mt-1"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-0 mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me">Sobre Mim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#school-education">Formação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#knowledge-row">Conhecimento</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-link">Portfólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contacts" class="nav-link">Contatos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row main-row">
+            <main id="main" class="main">
+                <div class="btn btn-dark-mode d-flex flex-row">
+                    <label for="" id="dark-mode-label" class="me-2">Dark Mode:</label>
+                    <div class="btns-mode">
+                        <button class="btn btn-on border border-dark" id="btn-dark-mode">
+                            ON
+                        </button>
+                        <button class="btn btn-off border border-dark" id="btn-dark-mode-off">
+                            OFF
+                        </button>
+                    </div>
+                </div>
+                <!-- SOBRE MIM -->
+                <div class="about-me bg-light rounded p-2" id="about-me" id="about-me">
+                    <h3>Sobre Mim:</h3>
+                    <p>
+                        Sou Kalvin Melo, tenho 31 anos, moro em <a href="https://goo.gl/maps/Y1qMAtCJwzXMVcwFA"
+                            target="_blank">Cachoeirinha</a>, cidade vizinha de Porto Alegre/RS
+                    </p>
+                    <p>
+                        Sou desenvolvedor estágiario na empresa <a href="https://acct.global/" target="_blank">ACCT
+                            Global - Consultoria & Tecnologia para E-commerce</a>
+                    </p>
+                    <p>
+                        Gosto de estudar, ler, música, assistir filmes/séries, fazer caminhadas, viajar
+                    </p>
+                </div>
+                <hr>
+                <hr>
+                <!-- FORMAÇÃO -->
+                <div class="school-education bg-light rounded p-2" id="school-education">
+                    <h3>Formação:</h3>
+                    <p>
+                        Em 2020 iniciei os estudos na plataforma do <a href="https://www.cursoemvideo.com/"
+                            target="_blank">Curso em
+                            Video</a> do professor Gustavo Guanabara nos cursos de <a
+                            href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank">Lógica de
+                            Algoritmos</a> em
+                        Portugol, <a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank">JavaScript
+                            Básico</a> e os
+                        módulos de <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/"
+                            target="_blank">HTML5 e CSS3</a>
+                    </p>
+                    <p>
+                        Na plataforma da <a href="https://www.cod3r.com.br/" target="_blank">Cod3r</a> do professor
+                        Leonardo Leitão, fiz
+                        o curso de <a href="https://www.cod3r.com.br/courses/web-moderno" target="_blank">Web Moderno
+                            com JavaScript</a>
+                        onde tive o primeiro contato com Node, jQuery, Ajax, Gulp, Webpack, Bootstrap.
+                    </p>
+                    <p>
+                        Em junho de 2021 decidi me matricular na faculdade no curso de <a
+                            href="https://www.uninter.com/graduacao-ead/curso-analise-e-desenvolvimento-de-sistemas/"
+                            target="_blank">Análises
+                            e Desenvolvimento de Sistemas</a> na <a href="https://www.uninter.com/"
+                            target="_blank">UNINTER</a> onde
+                        tive contato com as linguagens Python e Java.
+                    </p>
+                    <h5>Um pequeno nugget de curiosidade:</h5>
+                    <p>Sou formado em técnico em Segurança do Trabalho, porém nunca atuei como profissional</p>
+                </div>
+                <hr>
+                <hr>
+                <!-- LINK DOS CONHECIMENTOS QUE POSSUO -->
+                <div class="knowledge-row bg-light rounded p-2" id="knowledge-row">
+                    <h3>Conhecimentos:</h3>
+                    <ul class="knowledge">
+                        <li>
+                            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+                                <img src="assets/imgs/js.ico" alt="" width="20px" height="20px">
+                                <p>Javascript</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.devmedia.com.br/o-que-e-o-html5/25820" target="_blank">
+                                <img src="assets/imgs/html.ico" alt="" width="20px" height="20px">
+                                <p>HTML5</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+                                <img src="assets/imgs/css.ico" alt="" width="20px" height="20px">
+                                <p>CSS3</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://jquery.com/" target="_blank">
+                                <img src="assets/imgs/jquery.ico" alt="" width="20px" height="20px">
+                                <p>jQuery</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://getbootstrap.com/" target="_blank">
+                                <img src="assets/imgs/bootstrap.ico" alt="" width="20px" height="20px">
+                                <p>Bootstrap 5</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://nodejs.org/en/" target="_blank">
+                                <img src="assets/imgs/node-js.ico" alt="" width="20px" height="20px">
+                                <p>NodeJS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.devmedia.com.br/o-que-e-o-ajax/6702" target="_blank">
+                                <img src="assets/imgs/ajax.ico" alt="" width="20px" height="20px">
+                                <p>Ajax</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://vtex.com/br-pt/" target="_blank">
+                                <img src="assets/imgs/vtex.ico" alt="" width="20px" height="20px">
+                                <p>VTEX - Tecnologias para E-commerce</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://git-scm.com/" target="_blank">
+                                <img src="assets/imgs/git-icon.ico" alt="" width="20px" height="20px">
+                                <p>Git</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.figma.com/" target="_blank">
+                                <img src="assets/imgs/figma.ico" alt="" width="20px" height="20px">
+                                <p>Figma</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.digitalhouse.com/br/blog/markdown/" target="_blank">
+                                <img src="assets/imgs/markdown.ico" alt="" width="20px" height="20px">
+                                <p>Markdown</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tachyons.io/" target="_blank">
+                                <img src="assets/imgs/tachyons.ico" alt="" width="20px" height="20px">
+                                <p>Tachyons</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.java.com/pt-BR/" target="_blank">
+                                <img src="assets/imgs/java.ico" alt="" width="20px" height="20px">
+                                <p>Java (Básico)</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.python.org/" target="_blank">
+                                <img src="assets/imgs/python.ico" alt="" width="20px" height="20px">
+                                <p>Python (Básico)</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/" target="_blank">
+                                <img src="assets/imgs/github.ico" alt="" width="20px" height="20px">
+                                <p>GitHub</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.php.net/" target="_blank">
+                                <img src="assets/imgs/php.ico" alt="" width="20px" height="20px">
+                                <p>PHP (Básico)</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://handlebarsjs.com/" target="_blank">
+                                <img src="assets/imgs/handlebars.ico" alt="" width="20px" height="20px">
+                                <p>Handlebars</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sass-lang.com/" target="_blank">
+                                <img src="assets/imgs/sass.ico" alt="" width="20px" height="20px">
+                                <p>Sass</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <hr>
+                <!-- LINK DO PORTFÓLIO HOSPEDADO NO GITHUB -->
+                <div class="portfolio" id="portfolio">
+                    <h3>Alguns projetos hospedados no GitHub:</h3>
+                    <div class="row-one row-cards d-flex flex-row mx-2">
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/cordel-moderno.jpg" class="card-img-top" alt="imc-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto Cordel Moderno</h5>
+                                <p class="card-text">Projeto desenvolvido na plataforma Curso Em Video. Efeito paralaxe.
+                                </p>
+                                <a href="https://kalvinkm.github.io/projeto-cordel/" class="btn btn-cards"
+                                    target="_blank">Cordel Moderno</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/calculator-js.jpg" class="card-img-top" alt="calculadora">
+                            <div class="card-body">
+                                <h5 class="card-title">Calculadora JS</h5>
+                                <p class="card-text">Calculadora desenvolvida com JavaScript Vanilla e Bootstrap 5</p>
+                                <a href="https://kalvinkm.github.io/calculadora-javascript/" class="btn btn-cards"
+                                    target="_blank">Calculadora JS</a>
+                            </div>
+                        </div>
+
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/sorted-name-img.jpg" class="card-img-top" alt="imc-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Sorteador de Nomes</h5>
+                                <p class="card-text">Sorteador de Nomes desenvolvido com a biblioteca jQuery.</p>
+                                <a href="https://github.com/kalvinkm/name-sorted" class="btn btn-cards"
+                                    target="_blank">Sorteador de Nomes</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/portal-aluno-clone.jpg" class="card-img-top" alt="portal-fadergs">
+                            <div class="card-body">
+                                <h5 class="card-title">Portal do Aluno Fadergs Clone</h5>
+                                <p class="card-text">Réplica do login do Portal do Aluno Fadergs. Desenvolvido com
+                                    Bootstrap 5</p>
+                                <a href="https://kalvinkm.github.io/portal-do-aluno-fadergs/" class="btn btn-cards"
+                                    target="_blank">Portal do Aluno Fadergs</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row-two row-cards d-flex flex-row mx-2">
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/semaforo-js.jpg" class="card-img-top" alt="interruptor-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Semáforo JS Vanilla</h5>
+                                <p class="card-text">Semáforo em JavaScript puro.</p>
+                                <a href="https://kalvinkm.github.io/semaforo-js-vanilla/" class="btn btn-cards"
+                                    target="_blank">Semáforo</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/interruptor-img.jpg" class="card-img-top" alt="interruptor-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Interruptor JS Vanilla</h5>
+                                <p class="card-text">Primeiro repositório em JavaScript puro.</p>
+                                <a href="https://github.com/kalvinkm/lampada" class="btn btn-cards"
+                                    target="_blank">Interruptor</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/animated-login.jpg" class="card-img-top" alt="imc-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Login Animado</h5>
+                                <p class="card-text">Exercício da página One Bit Code. Apenas HTML5 e CSS3</p>
+                                <a href="https://kalvinkm.github.io/animated-login/" class="btn btn-cards"
+                                    target="_blank">Login Animado</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/ava-login-clone.jpg" class="card-img-top" alt="ava-uninter">
+                            <div class="card-body">
+                                <h5 class="card-title">AVA Login Uninter Clone</h5>
+                                <p class="card-text">Réplica do login do AVA Uninter. Desenvolvido com Bootstrap 5</p>
+                                <a href="https://kalvinkm.github.io/login-ava-uninter/" class="btn btn-cards"
+                                    target="_blank">Login - AVA Uninter Clone</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-three row-cards d-flex flex-row mx-2">
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/netflix-clone.jpg" class="card-img-top" alt="imc-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Netflix Clone</h5>
+                                <p class="card-text">Réplica do site Netflix, desafio do bootcamp da plataforma DIO -
+                                    Digital Innovation On.</p>
+                                <a href="https://kalvinkm.github.io/clone-netflix/" class="btn btn-cards"
+                                    target="_blank">Netflix - Clone</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/flexbox-exercises.jpg" class="card-img-top"
+                                alt="flex-box-exercises">
+                            <div class="card-body">
+                                <h5 class="card-title">CSS Flexbox Exercises</h5>
+                                <p class="card-text">Baseado nos exercícios na plataforma <br>
+                                    <a href="https://flexboxfroggy.com/">Flex Box Froggy</a>
+                                </p>
+                                <a href="https://kalvinkm.github.io/css-flexbox-exercicio-pratico/"
+                                    class="btn btn-cards" target="_blank">Flexbox Exercises</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/imc-calculator.jpg" class="card-img-top" alt="imc-img">
+                            <div class="card-body">
+                                <h5 class="card-title">Calculadora IMC</h5>
+                                <p class="card-text">Calculadora IMC em JavaScript Vanilla.</p>
+                                <a href="https://kalvinkm.github.io/imc/" class="btn btn-cards"
+                                    target="_blank">Calculadora IMC</a>
+                            </div>
+                        </div>
+                        <div class="card m-2 border border-dark" style="width: 18rem;">
+                            <img src="./assets/imgs/css-grid-exercicios.jpg" class="card-img-top"
+                                alt="css-grid-exercises">
+                            <div class="card-body">
+                                <h5 class="card-title">CSS Grid Exercises</h5>
+                                <p class="card-text">CSS Grid exercícios baseado na plataforma <a
+                                        href="https://cssgridgarden.com/ ">CSS Gridgarden</a></p>
+                                <a href="https://kalvinkm.github.io/css-grid-exercicio-pratico/" class="btn btn-cards"
+                                    target="_blank">CSS Grid Exercises</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="footer-row d-flex justify-content-center">
+            <div class="footer-container d-flex flex-column align-items-start">
+                <div class="contato" id="contacts">
+                    <h1>Contato:</h1>
+                </div>
+                <div class="social-medias d-flex flex-row w-100 justify-content-around">
+                    <div class="linkedIn">
+                        <a href="https://br.linkedin.com/in/kalvin-melo-479914218?trk"
+                            class="d-flex flex-row align-items-baseline">
+                            <img src="assets/imgs/linkedin.png" alt="linkedIn-icon" class="bg-light">
+                            <p class="footer-text ms-2">Me encontre no LinkedIn</p>
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/kalvinkm" target="_blank"
+                            class="d-flex flex-row align-items-baseline">
+                            <img src="assets/imgs/github-icon.png" alt="github-icon" class="bg-light">
+                            <p class="footer-text mb-0 pb-4 ms-2">Encontre mais projetos no GitHub</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
